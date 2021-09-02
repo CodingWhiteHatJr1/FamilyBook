@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(pink, lavender,lightblue);
+}
+#family_img{
+    width:375px;
+    height:500px;
+}
+button{
+    font-size:25px;
+    background-color:lavenderblush;
+    border-radius:20%;
+    color:black;
+    font-family: fantasy;
+    font-weight: bold;
+}
+h1{
+    font-size:  40px;
+    color: purple;
+   text-decoration: underline;
+   font-family: fantasy;
+   font-weight: bold;
+}
+h3{
+    font-size: 30px;
+    color:purple;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: fantasy;
+} 

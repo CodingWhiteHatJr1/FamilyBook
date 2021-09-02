@@ -1,0 +1,36 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">  
+  </head>
+  <title> Family Book</title>
+  <body>
+    <h1> Family Book</h1>
+    <hr> <hr>
+    <img id="family_img" src="Screen Shot 2021-09-02 at 11.05.13 AM.png">
+    <h3 id="one">1. Our Family Book</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script>
+   var names=[
+   "My Father (Kiran Bankupalli)",
+   "My Mother (Vasanta Dharmapuri)",
+   "My Sister (Pranati Bankupalli)",
+   "Me (Prerna Bankupalli)"
+   ];
+ var images=[
+   "Daddy.jpeg",
+   "Mommy.jpeg",
+   "Pranati.jpeg",
+   "Me.jpeg"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==4){
+     i=0;
+   }}
+  </script>
+  <script async src="https://drv.tw/inc/wd.js"></script></body>
+</html>
